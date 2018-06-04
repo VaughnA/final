@@ -1,0 +1,144 @@
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 35px;
+  text-decoration: none;
+  font-size: 22px;
+  
+}
+
+.topnav a:hover {
+  background-color: #0288d1;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #48A4ED;
+  color: white;
+}
+
+
+.first {
+	height: 110vh; 
+	width: 100vw;
+	background-color: #1D2F5F;	
+	display: flex;
+	justify-content: center; 
+	align-items: center; 
+	background-image: url("flag.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+
+.second {
+	width: 50vw;
+	height: 95vh; 
+	background-color: #0288d1;
+}
+
+.third {
+	background-color: #1D2F5F;
+	height: 200vh;
+	width: 100vw;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;	
+	justify-content: center;
+	
+}
+
+body {
+	margin-top:0;
+	margin-bottom:0;
+	margin-left: 0;
+}
+
+.updates {
+	background-color:#F21817;
+	border: 1px solid white; /* Creates that kind of a curve in the div */
+	border-radius: 5%; /* Percentage of Raduis*/
+	width: 75vw;
+	height: auto;  /* Height will increase whenever I add something new into it without me having to change anything */
+	color: #FEFEEF; 
+	justify-content: center; /* Puts content in center of div*/
+	align-items: center;
+	padding: 5vh;
+	display: flex; /* Makes content side by side*/
+	flex-wrap: wrap; 
+}
+
+.date {
+	border: solid 7px #1d2b5b;
+    color: #1d2b5b;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    margin: auto;
+    width: 60px;
+	
+}
+
+.span {
+	margin-top: 5px;
+    margin-bottom: 0;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 0.625rem;
+	
+}
+
+.strong {
+	margin-bottom: 6px;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    line-height: 0.83;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #1d2b5b;
+    font-size: 1.875rem;
+}
+
+a {
+	color: black;
+}
+
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	width: 8vw;
+ 	height: 3vh;
+}
+
+@media screen and (max-width: 1450px){
+	.first {
+		height: 170vh;
+	}
+	
+	.second {
+		height: 110vh; 
+	}
+	
+	.topnav a {
+		font-size: 16px;
+	}
+}
